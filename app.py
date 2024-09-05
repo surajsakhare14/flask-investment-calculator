@@ -5,7 +5,11 @@ app = Flask(__name__)
 
 @app.route('/api')
 def start():
-    return "Server is Running"
+    return "Server is Running!"
+
+@app.route('/')
+def Run():
+    return "Jay Ganesh!!"
 
 # SIP Required Amount Calculation
 @app.route('/api/investment/sip/required/', methods=['POST'])
