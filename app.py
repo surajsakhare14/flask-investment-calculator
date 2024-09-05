@@ -133,5 +133,5 @@ def swp_total_withdrawn():
         "withdrawals_per_year": withdrawals_per_year
     })
 
-if __name__ == '__main__':
-    app.run(debug=True)
+#if __name__ == '__main__':
+#    app.run(debug=True)
