@@ -3,6 +3,10 @@ import math
 
 app = Flask(__name__)
 
+@app.route('/api')
+def start():
+    return "Server is Running"
+
 # SIP Required Amount Calculation
 @app.route('/api/investment/sip/required/', methods=['POST'])
 def sip_required():
@@ -133,5 +137,4 @@ def swp_total_withdrawn():
         "withdrawals_per_year": withdrawals_per_year
     })
 
-#if __name__ == '__main__':
-#    app.run(debug=True)
+
