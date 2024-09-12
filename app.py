@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def Run():
-    return "Investment Calculations assigenment!"
+    return "Investment Calculations assigenment! Hello Vercel"
 
 
 # Endpoint for SIP Required Amount Calculation
