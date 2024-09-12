@@ -3,7 +3,7 @@ import math
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/xyz')
 def Run():
     return "Investment Calculations assigenment! Hello Vercel 2"
 
