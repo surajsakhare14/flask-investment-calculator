@@ -3,9 +3,9 @@ import math
 
 app = Flask(__name__)
 
-@app.route('/xyz')
+@app.route('/')
 def Run():
-    return "Investment Calculations assigenment! Hello Vercel 2"
+    return "Investment Calculations assigenment! Hello world 2"
 
 
 # Endpoint for SIP Required Amount Calculation
